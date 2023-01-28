@@ -1,0 +1,65 @@
+section {
+    padding-top: 1.5vw;
+    padding-left: 5vw;
+    padding-right: 4.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.figure{
+    justify-content: center;
+    
+
+
+}
+.figure:hover {                              /*for img animation:*/
+    width: 100%;
+    transition: all 1s ease-in-out;
+    filter: drop-shadow(2px 2px 5px rgb(177, 23, 23));
+}
+
+.img-contain {
+    display: flex;
+    height: 40vh;
+    width: auto;
+}
+
+.thumbnail {
+    width: 20%;
+    background-size: cover;
+    overflow: hidden;
+    filter: brightness(0.8);
+}
+
+.thumbnail:hover {                              /*for img animation:*/
+    width: 100%;
+    transition: all 2s ease-in-out;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.thumbnail p {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 90%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnail:nth-child(1) {
+    background-image: url('../images/dish\ 1.jpg');
+}
+
+.thumbnail:nth-child(2) {
+    background-image: url('../images/dish2.jpg');
+}
+
+.thumbnail:nth-child(3) {
+    background-image: url('../images/Maharshtrin\ thali');
+}
+
+.thumbnail:nth-child(4) {
+    background-image: url('../images/dish\ 4.jpg');
+}
+
+.thumbnail:nth-child(5) {
+    background-image: url('../images/dish\ 5.png');
+}
