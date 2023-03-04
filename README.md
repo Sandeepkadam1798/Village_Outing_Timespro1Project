@@ -1,4 +1,4 @@
-# Village_Outing_Timespro1Project
+# Village_Outing_Timespro HTML & CSS Project
 
 Village Outing Camping Website:-
 
